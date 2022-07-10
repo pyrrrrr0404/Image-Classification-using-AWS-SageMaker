@@ -17,6 +17,11 @@ Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has ac
 ## Hyperparameter Tuning
 What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
+I choose the ResNet model as the base model and add several fully connected layers to do the transfer learning. I set 3 hyperparameters for tuning:
+learning rate: 0.0001---0.1
+eps: 1e-9---1e-8
+batch_size: either 64 or 128
+
 Remember that your README should:
 - Include a screenshot of completed training jobs
 - Logs metrics during the training process
