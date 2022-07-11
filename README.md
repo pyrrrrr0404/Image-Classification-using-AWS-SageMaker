@@ -32,7 +32,7 @@ What are the results/insights did you get by profiling/debugging your model?
 We could see even at the last step, the test set accuracy is 24%, which is not pretty high. Profiling/debugging is really helpful to debug and track the model performance, and the smooth lines shown in the debugging plots are as expected.
 
 
-![Debugging](debugging plot.png)
+![Debugging](debuggingplot.png)
 
 
 Remember to provide the profiler html/pdf file in your submission.
