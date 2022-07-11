@@ -19,7 +19,7 @@ What kind of model did you choose for this experiment and why? Give an overview 
 
 I choose the ResNet model as the base model and add several fully connected layers to do the transfer learning. I set 3 hyperparameters for tuning: learning rate: 0.001---0.1 eps: 1e-9---1e-8 batch_size: either 64, 128, or 256
 
-![plot](./best_param.png)
+![My Image](./best_param.png)
 
 ## Debugging and Profiling
 I track the accuracy and loss for each epoch of training data and testing data. Also, with those logs information, I could track how the model performs and which step it reaches for each step.
@@ -29,6 +29,8 @@ What are the results/insights did you get by profiling/debugging your model?
 
 
 We could see even at the last step, the test set accuracy is 24%, which is not pretty high. Profiling/debugging is really helpful to debug and track the model performance, and the smooth lines shown in the debugging plots are as expected.
+
+
 ![My Image](debugging plot.png)
 
 Remember to provide the profiler html/pdf file in your submission.
